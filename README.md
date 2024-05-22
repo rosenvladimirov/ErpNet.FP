@@ -314,6 +314,8 @@ To compile and run the source code, you will need .Net 7.0 SDK installed.
 To build the binaries into Published folder and .zip files into Output folder, just write this line in the console, while you are in the ErpNet.FP folder:
 ```bash
 dotnet msbuild output.xml
+```bash
+docker buildx build --push --tag vladimirovrosen/erpnet-fp:latest --platform linux/amd64,linux/arm64,linux/arm/v7 ./docker
 ```
 If you are under Windows, you can install [Wix toolset - Wix 3.11](https://wixtoolset.org/releases/) and you will be able to build ErpNet.FP.Setup and to get the Windows MSI setup file into the Output folder.
 
