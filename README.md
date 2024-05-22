@@ -1,6 +1,6 @@
 <img src="https://github.com/erpnet/ErpNet.FP/raw/master/ErpNet.FP.Server/ErpNet.FP.thumb.png" align="right"/>
 
-# ErpNet.FP
+# this is a fork to dockerize ErpNet.FP
 
 ErpNet.FP is a light-weight multi-platform Http server facilitating printing to fiscal printers through simple JSON Api. The library provides methods to detect, get status, print receipts, reports and other documents to fiscal printers.
 
@@ -11,8 +11,6 @@ The http server receives input through the REST API and uses different transport
 * Bluetooth connection through mapping to COM port
 * TCP/IP
 * etc.
-
-# this is a fork to dockerize
 
 ### Shortcut to [**Download**](#download)
 
